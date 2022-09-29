@@ -1,0 +1,13 @@
+﻿        //            CREATE TABLE `测试数据表` (
+        // `id` int(11) NOT NULL AUTO_INCREMENT,
+        // `MO` varchar(100) DEFAULT NULL COMMENT '型号',
+        // `SN` varchar(100) DEFAULT '0' COMMENT '序列号',
+        // `SN2` varchar(50) DEFAULT NULL COMMENT '修正后序列号',
+        // `result` varchar(100) DEFAULT NULL COMMENT 'OK/TSNG/TXNG',
+        // `WORKSTATIONID` varchar(100) DEFAULT '0' COMMENT '工作站ID',
+        // `SOFT_VER` varchar(100) DEFAULT '0' COMMENT '软件版本',
+        // `testdate` datetime DEFAULT NULL COMMENT '调试时间',
+        // `testseconds` int(11) DEFAULT NULL COMMENT '调试时长',
+        // `memo` varchar(500) DEFAULT NULL,
+        // PRIMARY KEY(`id`)
+        //) ENGINE = MyISAM AUTO_INCREMENT = 14 DEFAULT CHARSET = utf8

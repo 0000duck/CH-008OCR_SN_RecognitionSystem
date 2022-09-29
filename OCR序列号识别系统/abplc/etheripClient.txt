@@ -1,0 +1,8 @@
+﻿
+基本用法：
+
+1. EthernetIPClient eip_client = new EthernetIPClient(ip地址, 端口号)
+2.调用 eip_client.StartClient()
+3.调用 eip_client.SendSession()
+4.调用 eip_client.SendFwdOpen()
+5.最后调用 eip_client.SendTagName(变量名称, 读取的长度)来从PLC读取数据，读到的数据存储在 eip_client.galRecvBytesResult这个数组里
