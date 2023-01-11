@@ -1,1 +1,4 @@
 https://github.com/zybpub/CH-008OCR_SN_RecognitionSystem.git
+
+git tag -a v1.0.0.20 -m "1.0.0.20"
+git push github --tags
